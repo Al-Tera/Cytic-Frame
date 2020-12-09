@@ -1,0 +1,375 @@
+.form__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  z-index: 2;
+  pointer-events: none;
+  transition-duration: 0.5s;
+  transition-property: background;
+}
+
+.backgroundclear {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+  pointer-events: fill;
+}
+
+.design__form {
+  position: absolute;
+  bottom: 4%;
+  right: 4%;
+  width: 7.7vh;
+  height: 7.7vh;
+  border-radius: 50%;
+  border: 0.5vh solid white;
+  background: rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.25s;
+  cursor: default;
+  z-index: 100;
+  pointer-events: fill;
+}
+
+.form__buttons {
+  position: absolute;
+  bottom: 4%;
+  right: 4%;
+  width: 7.7vh;
+  height: 7.7vh;
+  transition-duration: 1;
+  cursor: pointer;
+}
+.button__create {
+  transform: rotateZ(-45deg);
+  fill: white;
+  width: 70%;
+  height: 70%;
+  position: absolute;
+}
+.form__buttons_hover {
+  transform: scale(1, 1) rotateZ(45deg) !important;
+  pointer-events: fill;
+}
+.create__post {
+  position: absolute;
+  border: 0.25vh solid white;
+  top: -1.75vh;
+  left: -5vh;
+  width: 40%;
+  height: 40%;
+  transform: scale(0, 0) rotateZ(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s;
+  transition-property: transform;
+}
+.unknown1 {
+  position: absolute;
+  border: 0.25vh solid white;
+
+  top: 1.75vh;
+  left: -8.25vh;
+  width: 40%;
+  height: 40%;
+  transform: scale(0, 0) rotateZ(-45deg);
+  transition: 0.25s;
+  transition-delay: 0.1s;
+  transition-property: transform;
+}
+.unknown2 {
+  position: absolute;
+  border: 0.25vh solid white;
+  left: -5vh;
+  bottom: -0.75vh;
+  width: 40%;
+  height: 40%;
+  transform: scale(0, 0) rotateZ(-135deg);
+  transition: 0.25s;
+  transition-delay: 0.2s;
+  transition-property: transform;
+}
+.form_hover {
+  border-top-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  transform: rotateZ(135deg);
+}
+.form_designHover {
+  transform: rotateZ(45deg);
+  /* box-shadow: 0px 0px 15px 0px white; */
+}
+.form_designHover2 {
+  transform: rotateZ(45deg);
+  width: 85% !important;
+  height: 85% !important;
+}
+.form_designQuestion {
+  fill: rgba(255, 255, 255, 1) !important;
+
+  transform: rotateZ(135deg) !important;
+}
+
+.design1__square {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 65%;
+  height: 65%;
+  /* background: red; */
+  border: 0.5vh solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 1s;
+  pointer-events: none;
+  overflow: hidden;
+}
+.period {
+  width: 35%;
+  height: 35%;
+  background: white;
+  border-radius: 100%;
+  transition-duration: 0.25s;
+  transition-property: transform;
+}
+.period__remove {
+  transform: scale(0, 0);
+}
+
+.design2__square {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 55%;
+  height: 55%;
+  /* background: red; */
+  border: 0.4vh solid rgba(255, 255, 255, 0.5);
+  transition-duration: 0.25s;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  fill: rgba(255, 255, 255, 0);
+
+  transform: none;
+  transition-duration: 0.5s;
+  transform: rotateZ(0deg);
+}
+.form__border {
+  position: absolute;
+  width: 50vh;
+  height: 52vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5vh solid red;
+  border-left: none;
+  border-right: none;
+  transition-duration: 0.5s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+
+  transform: scale(0, 0);
+}
+.form__top__dot {
+  position: absolute;
+  top: -1%;
+  width: 107%;
+  display: flex;
+  justify-content: space-between;
+}
+.form__bottom__dot {
+  position: absolute;
+  bottom: -1%;
+  width: 107%;
+  display: flex;
+  justify-content: space-between;
+}
+.dot {
+  width: 0.5vh;
+  height: 0.5vh;
+  background: red;
+}
+.backgroundunclear {
+  background: none;
+}
+.showing {
+  transform: scale(1, 1) !important;
+}
+.App__header {
+  position: absolute;
+  width: 50vh;
+  height: 50vh;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  z-index: 15;
+  pointer-events: fill;
+  transition-duration: 0.5s;
+  transition-property: transform;
+  transform: scale(0, 0);
+  transition-timing-function: ease-out;
+}
+::placeholder {
+  color: rgb(240, 240, 240);
+}
+.textfield {
+  background: rgba(0, 0, 0, 0.25);
+  border: 0.25vh solid black;
+  margin: 2vh;
+  color: whitesmoke;
+}
+.text__caption {
+  border-right: none;
+  border-bottom: none;
+  width: 77%;
+  height: 4vh;
+  padding-left: 0.5vh;
+}
+
+.text__content {
+  margin-top: 2vh;
+  height: 20vh;
+  resize: none;
+  padding: 1vh;
+  border-top: none;
+  border-left: none;
+}
+
+.post__button {
+  border: none;
+  width: 50%;
+  height: 10%;
+  background: none;
+  align-self: center;
+  color: black;
+  font-family: "Electrolize", sans-serif;
+  letter-spacing: 0.25vh;
+  margin-top: 5vh;
+  outline: none;
+}
+.post__background {
+  position: relative;
+  top: -4.5vh;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 90, 90);
+  overflow: hidden;
+}
+.post__background:hover {
+  background: rgb(255, 154, 154);
+}
+
+.jail {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /* background: yellow; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transform: translateY(-5vh);
+  transition-duration: 0.25s;
+  transition-property: transform;
+  z-index: 5;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+.jailed {
+  transform: translateY(0vh);
+}
+
+.line {
+  width: 0.5vh;
+  height: 120%;
+  background: grey;
+  transform: rotateZ(25deg);
+}
+.post__label {
+  position: relative;
+  top: -1vh;
+  z-index: 5;
+  pointer-events: none;
+}
+.mask {
+  position: absolute;
+  background-color: #fff;
+  width: 1.5vh;
+  height: 1.5vh;
+  z-index: -5;
+}
+.mask1 {
+  top: 37.7vh;
+  left: 26.5%;
+}
+.mask2 {
+  top: 37.7vh;
+  left: 70.5%;
+}
+.mask3 {
+  top: 41.25vh;
+  left: 70.5%;
+}
+.mask4 {
+  top: 41.25vh;
+  left: 26.5%;
+}
+.inputfile {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.labelfile {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  height: 5vh;
+  width: 5vh;
+  background: red;
+}
+.labelfile:hover {
+  background: rgb(253, 124, 124);
+}
+.file__Image {
+  object-fit: contain;
+}
+
+.form__progress {
+  position: absolute;
+  width: 100%;
+  height: 0.25vh;
+  background: cyan;
+
+  color: cyan;
+  align-self: center;
+  margin-top: 100%;
+}
+
+.unclickable {
+  pointer-events: none;
+}
+::-webkit-progress-value {
+  background: cyan;
+}

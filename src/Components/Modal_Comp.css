@@ -1,0 +1,105 @@
+.modal {
+  position: absolute;
+  width: 400;
+  background: cyan;
+  border: 2px solid #005476;
+  /* box-shadow: theme.shadows[5],
+    padding: theme.spacing(2,4,3) */
+  padding: 20vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: none;
+}
+
+.modal__text {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  outline: none;
+  border: none;
+  height: 5vh;
+  background: rgb(177, 177, 177);
+}
+
+.modal__images {
+  position: absolute;
+
+  width: 5.5vh;
+  height: 5.35vh;
+  left: 23.25%;
+
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background: rgb(177, 177, 177);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__images__tail {
+  position: absolute;
+
+  width: 5.5vh;
+  height: 5.35vh;
+  left: 68.5%;
+
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background: rgb(177, 177, 177);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userimage {
+  top: 34.5%;
+}
+.emailimage {
+  top: 45.6%;
+}
+.lockimage {
+  top: 56.75%;
+}
+
+.userimage__tail {
+  top: 34.5%;
+}
+.emailimage__tail {
+  top: 45.6%;
+}
+.lockimage__tail {
+  top: 56.75%;
+}
+
+.emailimageIN {
+  top: 38.7%;
+}
+.lockimageIN {
+  top: 51.25%;
+}
+
+.emailimage__tailIN {
+  top: 38.7%;
+}
+.lockimage__tailIN {
+  top: 51.25%;
+}
+
+.sign__button {
+  /* opacity: 0; */
+  position: absolute;
+  border: none;
+  top: 60%;
+  width: 40%;
+  height: 10%;
+  background: none;
+  align-self: center;
+  color: black;
+  font-family: "Electrolize", sans-serif;
+  letter-spacing: 0.25vh;
+  margin-top: 5vh;
+  outline: none;
+  background: cyan;
+  transition: 0.25s;
+}
+.sign__button:hover {
+  background: rgb(255, 255, 255);
+}
