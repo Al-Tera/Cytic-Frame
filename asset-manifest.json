@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Cytus-Mainframe/static/css/main.cdd96077.chunk.css",
+    "main.css": "/Cytus-Mainframe/static/css/main.01ec139a.chunk.css",
     "main.js": "/Cytus-Mainframe/static/js/main.fca8314e.chunk.js",
     "main.js.map": "/Cytus-Mainframe/static/js/main.fca8314e.chunk.js.map",
     "runtime-main.js": "/Cytus-Mainframe/static/js/runtime-main.240b3d45.js",
@@ -10,7 +10,7 @@
     "static/js/3.cf6cec29.chunk.js": "/Cytus-Mainframe/static/js/3.cf6cec29.chunk.js",
     "static/js/3.cf6cec29.chunk.js.map": "/Cytus-Mainframe/static/js/3.cf6cec29.chunk.js.map",
     "index.html": "/Cytus-Mainframe/index.html",
-    "static/css/main.cdd96077.chunk.css.map": "/Cytus-Mainframe/static/css/main.cdd96077.chunk.css.map",
+    "static/css/main.01ec139a.chunk.css.map": "/Cytus-Mainframe/static/css/main.01ec139a.chunk.css.map",
     "static/js/2.afaf196e.chunk.js.LICENSE.txt": "/Cytus-Mainframe/static/js/2.afaf196e.chunk.js.LICENSE.txt",
     "static/media/back.037e7aeb.svg": "/Cytus-Mainframe/static/media/back.037e7aeb.svg",
     "static/media/create.249fb4c7.svg": "/Cytus-Mainframe/static/media/create.249fb4c7.svg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.240b3d45.js",
     "static/js/2.afaf196e.chunk.js",
-    "static/css/main.cdd96077.chunk.css",
+    "static/css/main.01ec139a.chunk.css",
     "static/js/main.fca8314e.chunk.js"
   ]
 }
