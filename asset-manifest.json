@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Cytus-Mainframe/static/css/main.9f2cdb06.chunk.css",
-    "main.js": "/Cytus-Mainframe/static/js/main.e47b00eb.chunk.js",
-    "main.js.map": "/Cytus-Mainframe/static/js/main.e47b00eb.chunk.js.map",
+    "main.js": "/Cytus-Mainframe/static/js/main.becb8072.chunk.js",
+    "main.js.map": "/Cytus-Mainframe/static/js/main.becb8072.chunk.js.map",
     "runtime-main.js": "/Cytus-Mainframe/static/js/runtime-main.240b3d45.js",
     "runtime-main.js.map": "/Cytus-Mainframe/static/js/runtime-main.240b3d45.js.map",
     "static/js/2.afaf196e.chunk.js": "/Cytus-Mainframe/static/js/2.afaf196e.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.240b3d45.js",
     "static/js/2.afaf196e.chunk.js",
     "static/css/main.9f2cdb06.chunk.css",
-    "static/js/main.e47b00eb.chunk.js"
+    "static/js/main.becb8072.chunk.js"
   ]
 }
